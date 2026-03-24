@@ -1,0 +1,47 @@
+.doctor-wrapper {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-main);
+    min-height: 100vh;
+    background: var(--bg-main);
+    background-attachment: fixed;
+    padding: 20px 5%;
+}
+
+.doctor-main { max-width: 1000px; margin: 40px auto; }
+.doctor-hero { padding: 40px; margin-bottom: 30px;}
+
+.doc-search {
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--glass-border);
+    background: var(--bg-card);
+    color: var(--text-main);
+    font-size: 1.2rem;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+.doc-search:focus { border-color: #38bdf8; background: rgba(0,0,0,0.5); }
+.doc-search::placeholder { color: rgba(255,255,255,0.6); }
+
+.disease-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+@media (max-width: 800px) { .disease-grid { grid-template-columns: 1fr; } }
+
+.disease-card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.d-header { background: rgba(0,0,0,0.3); padding: 25px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.d-cropTag { display: inline-block; background: #38bdf8; color: #0c4a6e; font-weight: 800; padding: 4px 12px; border-radius: 12px; font-size: 0.9rem; margin-bottom: 15px; }
+.d-header h3 { margin: 0; font-size: 1.5rem; color: #fff;}
+
+.d-body { padding: 25px; flex: 1; display: flex; flex-direction: column; gap: 15px;}
+.info-block p { font-size: 1.05rem; opacity: 0.9; line-height: 1.5; margin: 5px 0 0 0;}
+.treatment-block { padding: 15px 20px; border-radius: 12px; border-left: 5px solid; }
+.treatment-block strong { font-size: 1.05rem; display: block; margin-bottom: 5px;}
+.treatment-block p { margin: 0; line-height: 1.4; opacity: 0.95;}
+
+.treatment-block.organic { background: rgba(74, 222, 128, 0.15); border-left-color: #4ade80; }
+.treatment-block.organic strong { color: #86efac; }
+
+.treatment-block.chemical { background: rgba(248, 113, 113, 0.15); border-left-color: #f87171; }
+.treatment-block.chemical strong { color: #fca5a5; }

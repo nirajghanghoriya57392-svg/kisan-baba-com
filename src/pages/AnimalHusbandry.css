@@ -1,0 +1,57 @@
+.animal-wrapper {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-main);
+    min-height: 100vh;
+    background: var(--bg-main);
+    background-attachment: fixed;
+    padding: 20px 5%;
+}
+
+.animal-header { border-bottom: 1px solid rgba(255,255,255,0.1); }
+.animal-main { max-width: 900px; margin: 40px auto; }
+.animal-hero { text-align: center; padding: 40px 20px; margin-bottom: 30px; }
+
+.tab-switcher {
+    display: inline-flex;
+    background: rgba(0,0,0,0.3);
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 25px;
+    gap: 10px;
+}
+.tab-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tab-btn.active { background: var(--forest-green); color: white; box-shadow: 0 4px 10px rgba(52, 211, 153, 0.3); }
+
+.section-heading { font-size: 1.8rem; margin: 0 0 10px; color: #fff; }
+
+.feed-mixer-card { padding: 40px; }
+.feed-results { margin-top: 30px; }
+
+.green-fodder { background: linear-gradient(135deg, #dcfce7, #86efac); border: 1px solid #4ade80;}
+.green-fodder .bag-count { color: #166534; }
+
+.dry-fodder { background: linear-gradient(135deg, #fef3c7, #fde68a); border: 1px solid #fbbf24;}
+.dry-fodder .bag-count { color: #b45309; }
+
+.concentrate { background: linear-gradient(135deg, #e0e7ff, #c7d2fe); border: 1px solid #818cf8;}
+.concentrate .bag-count { color: #3730a3; }
+
+.vaccine-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.v-card { display: flex; align-items: center; padding: 25px; gap: 25px; transition: 0.3s; }
+.v-card:hover { transform: translateX(10px); background: rgba(255,255,255,0.2) }
+.v-icon { font-size: 4rem; flex-shrink: 0; background: rgba(0,0,0,0.2); width: 100px; height: 100px; display: flex; justify-content: center; align-items: center; border-radius: 20px;}
+.v-data { flex: 1; }
+.v-data h3 { margin: 0 0 15px; font-size: 1.4rem; color: #6ee7b7; font-weight: 800;}
+.v-row { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; margin-bottom: 8px; font-size: 1.1rem;}
+.v-row span { opacity: 0.8; }
+.v-schedule { margin-top: 15px; display: inline-block; background: rgba(251, 191, 36, 0.2); color: #fde68a; padding: 8px 15px; border-radius: 8px; font-weight: 700; border: 1px solid rgba(251,191,36,0.3);}

@@ -1,0 +1,38 @@
+name: Mandi Daily Pulse (KisanBaba Bot)
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at Midnight UTC
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-mandi-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install # Ensures any data-fetch dependencies are present
+        
+      - name: Execute Agmarknet Fetcher
+        run: node scripts/agmarknet_historical_fetcher.js Tomato
+        env:
+          OGD_API_KEY: ${{ secrets.OGD_API_KEY }} # Student: Add this in GitHub Secrets!
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "bot@kisanbaba.com"
+          git config --local user.name "KisanBaba Automated Bot"
+          git add src/data/historical_stats.json
+          git commit -m "📊 2026 Price DNA: Auto-Update [Skip CI]" || echo "No changes to commit"
+          git push

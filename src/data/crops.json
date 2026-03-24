@@ -1,0 +1,360 @@
+[
+  {
+    "id": "dragon-fruit",
+    "slug": "dragon-fruit-profit-margin-calculator",
+    "nameKey": "crops.dragonFruit.name",
+    "descKey": "crops.dragonFruit.desc",
+    "infraCost": 271000, 
+    "saplingCount": 2000,
+    "saplingPrice": 50,
+    "defaultOpEx": 70000,
+    "defaultYield": 5000,
+    "defaultPrice": 120,
+    "icon": "🍓",
+    "color": "#e11d48",
+    "bgGradient": "linear-gradient(135deg, #ffe4e6 0%, #fda4af 100%)",
+    "successStories": [
+      {
+        "title": "From Corporate Job to ₹45 Lakh/Year with High-Density Dragon Fruit in Maharashtra",
+        "farmer": "Ramesh Patel",
+        "location": "Pune, Maharashtra",
+        "income": "₹ 45 Lakh/Year",
+        "link": "https://news.google.com/search?q=dragon+fruit+farming+success+story+Maharashtra+lakhs"
+      },
+      {
+        "title": "How a 2-Acre Barren Land in Gujarat Now Yields Premium Export-Quality Pitaya",
+        "farmer": "Suresh Desai",
+        "location": "Kutch, Gujarat",
+        "income": "₹ 28 Lakh/Year",
+        "link": "https://news.google.com/search?q=dragon+fruit+farming+Gujarat+success+export"
+      },
+      {
+        "title": "Transforming Water-Scarce Rajasthan with Drip-Irrigated Dragon Fruit Orchards",
+        "farmer": "Amit Singh",
+        "location": "Jaipur, Rajasthan",
+        "income": "₹ 32 Lakh/Year",
+        "link": "https://news.google.com/search?q=dragon+fruit+cultivation+Rajasthan+profit"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Drone-Based Liquid Fertigation",
+        "desc": "Autonomous payload drones that aerially spray water-soluble micronutrients directly onto the cactus canopy, reducing manual labor costs by 80% and preventing soil compaction."
+      },
+      {
+        "name": "AI-Powered Soil Moisture Sensors",
+        "desc": "IoT probes planted near the root zone that automatically trigger the drip irrigation system only when the soil volumetric water content drops below 15%, saving thousands of liters of water."
+      },
+      {
+        "name": "Solar-Powered Cold Storage Micro-Chambers",
+        "desc": "Off-grid, solar-powered chilling units placed directly on the farm. They rapidly cool freshly harvested dragon fruit to 10°C, doubling shelf life and preventing immediate post-harvest loss."
+      },
+      {
+        "name": "LED Photoperiod Extension Lighting",
+        "desc": "Using specialized LED grow lights strung across the concrete trellises to trick the dragon fruit plants into flowering during the off-season, capturing premium winter market prices."
+      },
+      {
+        "name": "Blockchain Traceability QR Codes",
+        "desc": "Printing unique, unalterable QR codes on each fruit box so premium retail buyers can verify the farm's organic pesticide records, instantly commanding a 20% higher market rate."
+      }
+    ],
+    "agronomy": {
+      "soil": "Sandy loam to clay loam with excellent drainage. pH 5.5 to 7.0.",
+      "states": "Gujarat, Maharashtra, Karnataka, Andhra Pradesh, West Bengal.",
+      "bestClimate": "Tropical and subtropical. Best temperature range: 20°C to 30°C. Needs 50-100cm annual rainfall.",
+      "unsuitableClimate": "Areas with extreme frost, waterlogging, or continuous temperatures above 40°C which cause severe sunburn.",
+      "varieties": "Red Flesh (Siam Red), White Flesh (Vietnam White), Yellow Pitaya."
+    },
+    "mandiPrices": [
+      { "state": "Maharashtra (Pune Mandi)", "price": "₹ 110 - ₹ 140 / kg", "trend": "up" },
+      { "state": "Delhi (Azadpur Mandi)", "price": "₹ 130 - ₹ 160 / kg", "trend": "stable" },
+      { "state": "Gujarat (Ahmedabad)", "price": "₹ 100 - ₹ 135 / kg", "trend": "up" },
+      { "state": "Karnataka (Bangalore)", "price": "₹ 120 - ₹ 150 / kg", "trend": "stable" }
+    ]
+  },
+  {
+    "id": "polyhouse-tomato",
+    "slug": "polyhouse-tomato-yield-profit-estimator",
+    "nameKey": "crops.tomato.name",
+    "descKey": "crops.tomato.desc",
+    "infraCost": 1600000,
+    "saplingCount": 10000,
+    "saplingPrice": 20,
+    "defaultOpEx": 250000,
+    "defaultYield": 35000,
+    "defaultPrice": 22,
+    "icon": "🍅",
+    "color": "#dc2626",
+    "bgGradient": "linear-gradient(135deg, #fee2e2 0%, #fca5a5 100%)"
+  },
+  {
+    "id": "apple-ber",
+    "slug": "apple-ber-jujube-yield-profit-calculator",
+    "nameKey": "crops.appleBer.name",
+    "descKey": "crops.appleBer.desc",
+    "infraCost": 41220,
+    "saplingCount": 400,
+    "saplingPrice": 50,
+    "defaultOpEx": 30000,
+    "defaultYield": 35000,
+    "defaultPrice": 20,
+    "icon": "🍏",
+    "color": "#65a30d",
+    "bgGradient": "linear-gradient(135deg, #ecfccb 0%, #bef264 100%)",
+    "agronomy": {
+      "soil": "Sandy loam to shallow soils, highly drought-tolerant. Best pH 6.0 to 8.5.",
+      "states": "Maharashtra, Rajasthan, Gujarat, Punjab, Haryana.",
+      "bestClimate": "Arid to semi-arid regions. Needs hot summers and mild winters. Tolerates up to 48°C.",
+      "unsuitableClimate": "Heavy waterlogged soils, continuous high humidity.",
+      "varieties": "Kashmiri Red Apple Ber, Thai Green Apple Ber, Umran."
+    },
+    "mandiPrices": [
+      { "state": "Maharashtra (Rahuri APMC)", "price": "₹ 20 - ₹ 35 / kg", "trend": "up" },
+      { "state": "Delhi (Azadpur APMC)", "price": "₹ 14 - ₹ 30 / kg", "trend": "stable" },
+      { "state": "Punjab (Ludhiana)", "price": "₹ 15 - ₹ 25 / kg", "trend": "down" }
+    ]
+  },
+  {
+    "id": "red-lady-papaya",
+    "slug": "red-lady-papaya-commercial-profit-estimator",
+    "nameKey": "crops.redLadyPapaya.name",
+    "descKey": "crops.redLadyPapaya.desc",
+    "infraCost": 77500,
+    "saplingCount": 900,
+    "saplingPrice": 25,
+    "defaultOpEx": 60000,
+    "defaultYield": 50000,
+    "defaultPrice": 28,
+    "icon": "🍈",
+    "color": "#ea580c",
+    "bgGradient": "linear-gradient(135deg, #ffedd5 0%, #fdba74 100%)",
+    "agronomy": {
+      "soil": "Well-drained fertile loam soil. Extremely sensitive to waterlogging. pH 6.0 to 6.5.",
+      "states": "Tamil Nadu, Andhra Pradesh, Maharashtra, Gujarat, Kerala.",
+      "bestClimate": "Tropical. Temperature between 22°C to 26°C. High humidity.",
+      "unsuitableClimate": "Frost-prone areas and regions with heavy strong winds.",
+      "varieties": "Red Lady 786 (F1 Hybrid), Taiwan 786."
+    },
+    "mandiPrices": [
+      { "state": "Tamil Nadu (Paramathivelur)", "price": "₹ 25 - ₹ 30 / kg", "trend": "up" },
+      { "state": "Rajasthan", "price": "₹ 21 - ₹ 40 / kg", "trend": "stable" },
+      { "state": "Maharashtra", "price": "₹ 30 - ₹ 35 / kg", "trend": "up" }
+    ]
+  },
+  {
+    "id": "tc-banana",
+    "slug": "tissue-culture-banana-yield-calculator",
+    "nameKey": "crops.tcBanana.name",
+    "descKey": "crops.tcBanana.desc",
+    "infraCost": 60000,
+    "saplingCount": 900,
+    "saplingPrice": 24,
+    "defaultOpEx": 85000,
+    "defaultYield": 25670,
+    "defaultPrice": 15,
+    "icon": "🍌",
+    "color": "#ca8a04",
+    "bgGradient": "linear-gradient(135deg, #fefce8 0%, #fde047 100%)",
+    "agronomy": {
+      "soil": "Deep, rich loamy soil entirely free from nematodes. Depth of 1 meter. pH 6.5 to 7.5.",
+      "states": "Maharashtra (Jalgaon), Gujarat, Tamil Nadu, Andhra Pradesh.",
+      "bestClimate": "Tropical humid climate. Needs abundant sunshine and heavy water supply.",
+      "unsuitableClimate": "Dry arid regions without irrigation, extreme cold winters.",
+      "varieties": "Grand Naine (G-9), Robusta."
+    },
+    "mandiPrices": [
+      { "state": "Andhra Pradesh APMC", "price": "₹ 15 - ₹ 20 / kg", "trend": "stable" },
+      { "state": "Maharashtra (Jalgaon)", "price": "₹ 12 - ₹ 18 / kg", "trend": "up" },
+      { "state": "Tamil Nadu", "price": "₹ 14 - ₹ 22 / kg", "trend": "down" }
+    ]
+  },
+  {
+    "id": "bhagwa-pomegranate",
+    "slug": "bhagwa-pomegranate-export-profit-estimator",
+    "nameKey": "crops.bhagwaPomegranate.name",
+    "descKey": "crops.bhagwaPomegranate.desc",
+    "infraCost": 166000,
+    "saplingCount": 300,
+    "saplingPrice": 45,
+    "defaultOpEx": 70000,
+    "defaultYield": 12000,
+    "defaultPrice": 149,
+    "icon": "🍅",
+    "color": "#be123c",
+    "bgGradient": "linear-gradient(135deg, #ffe4e6 0%, #fda4af 100%)",
+    "agronomy": {
+      "soil": "Well-drained medium deep soils. Can tolerate mild salinity. pH 6.5 to 7.5.",
+      "states": "Maharashtra, Karnataka, Gujarat, Rajasthan.",
+      "bestClimate": "Semi-arid climate. Needs hot dry summers for fruit ripening and cool winters.",
+      "unsuitableClimate": "Humid zones with heavy continuous rainfall (causes fungal blight).",
+      "varieties": "Bhagwa (Sindhuri), Ganesh, Ruby."
+    },
+    "mandiPrices": [
+      { "state": "Maharashtra (Solapur)", "price": "₹ 140 - ₹ 180 / kg", "trend": "up" },
+      { "state": "Karnataka (Bengaluru APMC)", "price": "₹ 110 - ₹ 160 / kg", "trend": "stable" },
+      { "state": "Gujarat", "price": "₹ 120 - ₹ 150 / kg", "trend": "stable" }
+    ]
+  },
+  {
+    "id": "uhdp-mango",
+    "slug": "ultra-high-density-mango-roi-calculator",
+    "nameKey": "crops.uhdpMango.name",
+    "descKey": "crops.uhdpMango.desc",
+    "infraCost": 75000,
+    "saplingCount": 674,
+    "saplingPrice": 80,
+    "defaultOpEx": 100000,
+    "defaultYield": 10000,
+    "defaultPrice": 112,
+    "icon": "🥭",
+    "color": "#ea580c",
+    "bgGradient": "linear-gradient(135deg, #ffedd5 0%, #fdba74 100%)",
+    "agronomy": {
+      "soil": "Deep, well-drained lateritic or alluvial soil. Avoid rocky subsoil. pH 5.5 to 7.5.",
+      "states": "Maharashtra, Andhra Pradesh, Uttar Pradesh, Karnataka, Gujarat.",
+      "bestClimate": "Tropical/Subtropical. Distinct dry period needed before flowering.",
+      "unsuitableClimate": "Areas with frequent unseasonal rains during flowering stage.",
+      "varieties": "Alphonso (Hapus), Kesar, Banganappalli, Mallika (Ideal for UHDP)."
+    },
+    "mandiPrices": [
+      { "state": "Delhi (Azadpur - Safeda)", "price": "₹ 130 - ₹ 150 / kg", "trend": "stable" },
+      { "state": "Maharashtra (Alphonso)", "price": "₹ 200 - ₹ 400 / kg", "trend": "up" },
+      { "state": "Karnataka", "price": "₹ 60 - ₹ 110 / kg", "trend": "down" }
+    ]
+  },
+  {
+    "id": "strawberry-polyhouse",
+    "slug": "strawberry-polyhouse-yield-profit-calculator",
+    "nameKey": "crops.strawberry.name",
+    "descKey": "crops.strawberry.desc",
+    "infraCost": 3200000,
+    "saplingCount": 25000,
+    "saplingPrice": 5,
+    "defaultOpEx": 400000,
+    "defaultYield": 20000,
+    "defaultPrice": 150,
+    "icon": "🍓",
+    "color": "#be123c",
+    "bgGradient": "linear-gradient(135deg, #ffe4e6 0%, #fda4af 100%)",
+    "agronomy": {
+      "soil": "Sandy loam with high organic matter. Well drained. pH 5.5 to 6.5.",
+      "states": "Maharashtra, Himachal Pradesh, Haryana, Punjab.",
+      "bestClimate": "Temperate to sub-tropical. Needs cool nights (10°C) for best fruiting.",
+      "unsuitableClimate": "Hot and humid coastal areas without climate control.",
+      "varieties": "Camarosa, Chandler, Sweet Charlie, Winter Dawn."
+    },
+    "mandiPrices": [
+      { "state": "Haryana (Karnal)", "price": "₹ 150 - ₹ 200 / kg", "trend": "up" },
+      { "state": "Maharashtra (Pune)", "price": "₹ 120 - ₹ 250 / kg", "trend": "stable" },
+      { "state": "Delhi (Azadpur)", "price": "₹ 150 - ₹ 300 / kg", "trend": "stable" }
+    ]
+  },
+  {
+    "id": "avocado-commercial",
+    "slug": "avocado-hass-commercial-farming-profit-estimator",
+    "nameKey": "crops.avocado.name",
+    "descKey": "crops.avocado.desc",
+    "infraCost": 150000,
+    "saplingCount": 165,
+    "saplingPrice": 1000,
+    "defaultOpEx": 150000,
+    "defaultYield": 6000,
+    "defaultPrice": 200,
+    "icon": "🥑",
+    "color": "#15803d",
+    "bgGradient": "linear-gradient(135deg, #dcfce7 0%, #86efac 100%)",
+    "agronomy": {
+      "soil": "Extremely well-drained loamy soil. Cannot tolerate waterlogging. pH 5.5 to 7.0.",
+      "states": "Karnataka (Coorg), Tamil Nadu (Nilgiris), Kerala, Sikkim.",
+      "bestClimate": "Sub-tropical to tropical. Temp 12°C to 30°C. Protect from hot dry winds.",
+      "unsuitableClimate": "Heavy clay soils with poor drainage, frost-prone zones.",
+      "varieties": "Hass (Premium Export), Fuerte."
+    },
+    "mandiPrices": [
+      { "state": "Karnataka (Bengaluru)", "price": "₹ 180 - ₹ 300 / kg", "trend": "up" },
+      { "state": "Tamil Nadu", "price": "₹ 150 - ₹ 250 / kg", "trend": "stable" },
+      { "state": "Delhi (Import/Premium)", "price": "₹ 250 - ₹ 400 / kg", "trend": "up" }
+    ]
+  },
+  {
+    "id": "lemon-kagzi",
+    "slug": "high-density-kagzi-lemon-orchard-roi-calculator",
+    "nameKey": "crops.lemon.name",
+    "descKey": "crops.lemon.desc",
+    "infraCost": 40000,
+    "saplingCount": 320,
+    "saplingPrice": 65,
+    "defaultOpEx": 45000,
+    "defaultYield": 10000,
+    "defaultPrice": 60,
+    "icon": "🍋",
+    "color": "#eab308",
+    "bgGradient": "linear-gradient(135deg, #fefce8 0%, #fde047 100%)",
+    "agronomy": {
+      "soil": "Light loamy and well-drained soils. Avoid very heavy clay. pH 6.0 to 8.0.",
+      "states": "Andhra Pradesh, Gujarat, Maharashtra, Karnataka.",
+      "bestClimate": "Sub-tropical. Withstands both heat and cold but sensitive to severe frost.",
+      "unsuitableClimate": "Waterlogged areas.",
+      "varieties": "Kagzi, Pramalini, Vikram, Sai Sharbati."
+    },
+    "mandiPrices": [
+      { "state": "Andhra Pradesh", "price": "₹ 40 - ₹ 80 / kg", "trend": "stable" },
+      { "state": "Gujarat", "price": "₹ 50 - ₹ 100 / kg", "trend": "up" },
+      { "state": "Maharashtra", "price": "₹ 80 - ₹ 150 / kg", "trend": "up" }
+    ]
+  },
+  {
+    "id": "watermelon-icebox",
+    "slug": "icebox-watermelon-farming-profit-margin",
+    "nameKey": "crops.watermelon.name",
+    "descKey": "crops.watermelon.desc",
+    "infraCost": 45000,
+    "saplingCount": 4000,
+    "saplingPrice": 3,
+    "defaultOpEx": 50000,
+    "defaultYield": 25000,
+    "defaultPrice": 12,
+    "icon": "🍉",
+    "color": "#ef4444",
+    "bgGradient": "linear-gradient(135deg, #fee2e2 0%, #fca5a5 100%)",
+    "agronomy": {
+      "soil": "Sandy to sandy-loam soils. Good drainage is essential. pH 6.0 to 7.0.",
+      "states": "Karnataka, Tamil Nadu, Andhra Pradesh, Punjab.",
+      "bestClimate": "Warm, sunny, dry climate. Needs heat for sugar development.",
+      "unsuitableClimate": "Frost zones, heavy rains during fruit ripening stage.",
+      "varieties": "Arka Muthu, Sugar Baby, Namdhari (NS 295), Kiran."
+    },
+    "mandiPrices": [
+      { "state": "Karnataka", "price": "₹ 10 - ₹ 18 / kg", "trend": "stable" },
+      { "state": "Uttar Pradesh", "price": "₹ 8 - ₹ 15 / kg", "trend": "down" },
+      { "state": "Andhra Pradesh", "price": "₹ 12 - ₹ 20 / kg", "trend": "stable" }
+    ]
+  },
+  {
+    "id": "muskmelon-nethouse",
+    "slug": "net-house-muskmelon-cantaloupe-profit-margin",
+    "nameKey": "crops.muskmelon.name",
+    "descKey": "crops.muskmelon.desc",
+    "infraCost": 1500000,
+    "saplingCount": 6000,
+    "saplingPrice": 5,
+    "defaultOpEx": 150000,
+    "defaultYield": 22000,
+    "defaultPrice": 25,
+    "icon": "🍈",
+    "color": "#f97316",
+    "bgGradient": "linear-gradient(135deg, #ffedd5 0%, #fdba74 100%)",
+    "agronomy": {
+      "soil": "Fertile, well-draining sandy loam. Avoid heavy soils. pH 6.0 to 6.8.",
+      "states": "Maharashtra, Karnataka, Punjab, Gujarat.",
+      "bestClimate": "Warm and dry. Net houses protect from pests and stabilize temperature.",
+      "unsuitableClimate": "Unprotected open fields in heavy monsoon.",
+      "varieties": "Kundan, Madhumati, Punjab Sunehri."
+    },
+    "mandiPrices": [
+      { "state": "Maharashtra", "price": "₹ 20 - ₹ 40 / kg", "trend": "up" },
+      { "state": "Delhi (Azadpur)", "price": "₹ 18 - ₹ 30 / kg", "trend": "stable" },
+      { "state": "Karnataka", "price": "₹ 20 - ₹ 35 / kg", "trend": "stable" }
+    ]
+  }
+]

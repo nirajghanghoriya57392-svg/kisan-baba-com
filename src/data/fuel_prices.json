@@ -1,0 +1,33 @@
+{
+  "lastUpdated": "2026-03-22T06:19:13.000Z",
+  "source": "Goodreturns (Daily Fuel Monitor)",
+  "rates": {
+    "Madhya Pradesh": {
+      "avg": 91.99,
+      "cities": {
+        "Indore": 92.11,
+        "Bhopal": 91.99,
+        "Ujjain": 92.25
+      }
+    },
+    "Chhattisgarh": {
+      "avg": 93.39,
+      "cities": {
+        "Raipur": 93.39,
+        "Durg": 93.45,
+        "Bilaspur": 93.60
+      }
+    },
+    "Maharashtra": {
+      "avg": 90.03,
+      "cities": {
+        "Mumbai": 92.15,
+        "Pune": 91.80,
+        "Nagpur": 92.05
+      }
+    },
+    "Delhi": { "avg": 87.62, "cities": { "New Delhi": 87.62 } },
+    "Rajasthan": { "avg": 94.12, "cities": { "Jaipur": 94.12 } },
+    "Gujarat": { "avg": 90.56, "cities": { "Ahmedabad": 90.56 } }
+  }
+}

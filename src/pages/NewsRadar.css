@@ -1,0 +1,52 @@
+.radar-wrapper {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-main);
+    min-height: 100vh;
+    background: var(--bg-main);
+    background-attachment: fixed;
+    padding: 20px 5%;
+}
+
+.radar-header { border-bottom: 1px solid rgba(255,255,255,0.1); }
+.radar-main { max-width: 800px; margin: 40px auto; }
+.radar-hero { text-align: center; margin-bottom: 40px; }
+
+.radar-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+.radar-filter-btn {
+    background: var(--bg-icon);
+    border: 1px solid var(--glass-border);
+    color: var(--text-main);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.radar-filter-btn:hover { background: rgba(255,255,255,0.2); }
+.radar-filter-btn.active { background: #fbbf24; color: #78350f; border-color: #f59e0b; }
+
+.news-feed { display: flex; flex-direction: column; gap: 30px; }
+.smart-card { padding: 35px; position: relative; overflow: hidden; }
+
+.card-category { font-weight: 900; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; margin-bottom: 15px;}
+.card-headline { font-size: 2rem; margin: 0 0 20px; line-height: 1.2; text-shadow: 0 2px 4px rgba(0,0,0,0.3);}
+.card-summary { font-size: 1.15rem; opacity: 0.9; line-height: 1.6; margin-bottom: 30px;}
+
+.action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;}
+@media (max-width: 600px) { .action-grid { grid-template-columns: 1fr; } }
+
+.action-box { background: rgba(0,0,0,0.2); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);}
+.action-box h3 { margin: 0 0 10px; font-size: 1.1rem; color: #fbbf24;}
+.action-box p { margin: 0; font-size: 1.05rem; opacity: 0.95; line-height: 1.5;}
+
+.radar-quote { margin: 0 0 30px; padding: 20px; font-style: italic; font-size: 1.2rem; border-left: 4px solid #fbbf24; background: rgba(251, 191, 36, 0.1); color: #fde68a; border-radius: 0 12px 12px 0;}
+
+.card-footer { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;}
+.read-more-btn { background: none; border: none; color: #38bdf8; font-size: 1.1rem; font-weight: 800; cursor: pointer; transition: 0.2s;}
+.read-more-btn:hover { color: #bae6fd; text-decoration: underline;}

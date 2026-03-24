@@ -1,0 +1,89 @@
+.ticker-tape-container {
+  background: var(--text-main);
+  color: white;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.ticker-label {
+  background: var(--terra-cotta);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: 900;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 10px 0 20px rgba(0,0,0,0.3);
+}
+
+.ticker-wrapper {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  will-change: transform;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 30px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.ticker-icon {
+  font-size: 1.2rem;
+}
+
+.ticker-name {
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+}
+
+.ticker-mandi {
+  font-size: 0.8rem;
+  color: var(--emerald-light);
+  font-weight: 800;
+  opacity: 0.9;
+}
+
+.ticker-price {
+  font-weight: 800;
+  color: white;
+}
+
+.ticker-stats {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.75rem; /* Smaller for density */
+  font-weight: 900;
+}
+
+.ticker-stats svg {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.ticker-stats.up { color: #34d399; }
+.ticker-stats.down { color: #f87171; }
+
+@media (max-width: 600px) {
+  .ticker-label { display: none; }
+}

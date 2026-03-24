@@ -1,0 +1,45 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Global Transition Container */
+.page-transition-wrapper {
+  width: 100%;
+}
+
+/* Scrollbar Modernization */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(222, 47%, 11%, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(222, 47%, 11%, 0.1);
+  border-radius: 50px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(222, 47%, 11%, 0.2);
+  background-clip: content-box;
+}
+
+/* Base Utility Classes */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--glass-shadow);
+}

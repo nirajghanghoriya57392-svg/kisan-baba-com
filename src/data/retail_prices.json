@@ -1,0 +1,28 @@
+{
+  "lastUpdated": "2026-03-22T06:09:34.000Z",
+  "source": "Department of Consumer Affairs (Price Monitoring Division)",
+  "records": [
+    { "commodity": "Rice", "unit": "1 Kg", "retailPrice": 42.51, "wholesalePrice": 3808.71 },
+    { "commodity": "Wheat", "unit": "1 Kg", "retailPrice": 31.39, "wholesalePrice": 2818.7 },
+    { "commodity": "Atta (Wheat)", "unit": "1 Kg", "retailPrice": 37.15, "wholesalePrice": 3293.53 },
+    { "commodity": "Gram Dal", "unit": "1 Kg", "retailPrice": 85.87, "wholesalePrice": 7713.61 },
+    { "commodity": "Tur/Arhar Dal", "unit": "1 Kg", "retailPrice": 122.58, "wholesalePrice": 11240.99 },
+    { "commodity": "Urad Dal", "unit": "1 Kg", "retailPrice": 118.32, "wholesalePrice": 10854.77 },
+    { "commodity": "Moong Dal", "unit": "1 Kg", "retailPrice": 111.77, "wholesalePrice": 10192.14 },
+    { "commodity": "Masoor Dal", "unit": "1 Kg", "retailPrice": 89.31, "wholesalePrice": 8046.33 },
+    { "commodity": "Sugar", "unit": "1 Kg", "retailPrice": 46.42, "wholesalePrice": 4317.42 },
+    { "commodity": "Milk", "unit": "1 Ltr", "retailPrice": 59.62, "wholesalePrice": 5640.36 },
+    { "commodity": "Groundnut Oil (Packed)", "unit": "1 Kg", "retailPrice": 198.68, "wholesalePrice": 18772.29 },
+    { "commodity": "Mustard Oil (Packed)", "unit": "1 Kg", "retailPrice": 187.03, "wholesalePrice": 17704.37 },
+    { "commodity": "Vanaspati (Packed)", "unit": "1 Kg", "retailPrice": 158.8, "wholesalePrice": 14718.92 },
+    { "commodity": "Soya Oil (Packed)", "unit": "1 Kg", "retailPrice": 153.08, "wholesalePrice": 14390.94 },
+    { "commodity": "Sunflower Oil (Packed)", "unit": "1 Kg", "retailPrice": 182.55, "wholesalePrice": 17287.76 },
+    { "commodity": "Palm Oil (Packed)", "unit": "1 Kg", "retailPrice": 143.03, "wholesalePrice": 13460.36 },
+    { "commodity": "Gur", "unit": "1 Kg", "retailPrice": 57.72, "wholesalePrice": 5034.57 },
+    { "commodity": "Tea Loose", "unit": "1 Kg", "retailPrice": 268.2, "wholesalePrice": 24249.92 },
+    { "commodity": "Salt Pack (Iodised)", "unit": "1 Kg", "retailPrice": 21.34, "wholesalePrice": 1785.09 },
+    { "commodity": "Potato", "unit": "1 Kg", "retailPrice": 20.68, "wholesalePrice": 1510.21 },
+    { "commodity": "Onion", "unit": "1 Kg", "retailPrice": 25.82, "wholesalePrice": 1948.96 },
+    { "commodity": "Tomato", "unit": "1 Kg", "retailPrice": 28.22, "wholesalePrice": 2091.9 }
+  ]
+}

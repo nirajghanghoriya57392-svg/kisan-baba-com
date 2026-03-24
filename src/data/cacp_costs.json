@@ -1,0 +1,214 @@
+{
+  "Season": "Kharif & Rabi 2025-26",
+  "Crops": {
+    "Cotton": {
+      "Season": "Kharif",
+      "National_MSP": 7121,
+      "National_A2_FL": 3800,
+      "National_C2": 5800,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 55000,
+          "Expected_Yield_Q_Per_Ha": 15.0
+        },
+        "Maharashtra": {
+          "Cost_Per_Hectare_C2": 58000,
+          "Expected_Yield_Q_Per_Ha": 12.0
+        }
+      }
+    },
+    "Maize": {
+      "Season": "Kharif",
+      "National_MSP": 2225,
+      "National_A2_FL": 1483,
+      "National_C2": 1850,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 35000,
+          "Expected_Yield_Q_Per_Ha": 22.0
+        }
+      }
+    },
+    "Groundnut": {
+      "Season": "Kharif",
+      "National_MSP": 6783,
+      "National_A2_FL": 4522,
+      "National_C2": 5990,
+      "State_Specific": {
+        "Gujarat": {
+          "Cost_Per_Hectare_C2": 52000,
+          "Expected_Yield_Q_Per_Ha": 18.0
+        },
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 48000,
+          "Expected_Yield_Q_Per_Ha": 15.0
+        }
+      }
+    },
+    "Tur": {
+      "Season": "Kharif",
+      "National_MSP": 7550,
+      "National_A2_FL": 4820,
+      "National_C2": 6600,
+      "State_Specific": {
+        "Maharashtra": {
+          "Cost_Per_Hectare_C2": 42000,
+          "Expected_Yield_Q_Per_Ha": 9.0
+        },
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 40000,
+          "Expected_Yield_Q_Per_Ha": 8.0
+        }
+      }
+    },
+    "Moong": {
+      "Season": "Kharif",
+      "National_MSP": 8682,
+      "National_A2_FL": 5350,
+      "National_C2": 7200,
+      "State_Specific": {
+        "Rajasthan": {
+          "Cost_Per_Hectare_C2": 32000,
+          "Expected_Yield_Q_Per_Ha": 5.0
+        },
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 35000,
+          "Expected_Yield_Q_Per_Ha": 6.0
+        }
+      }
+    },
+    "Urad": {
+      "Season": "Kharif",
+      "National_MSP": 7400,
+      "National_A2_FL": 4850,
+      "National_C2": 6800,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 34000,
+          "Expected_Yield_Q_Per_Ha": 6.5
+        }
+      }
+    },
+
+    "Soybean": {
+      "Season": "Kharif",
+      "National_MSP": 5328,
+      "National_A2_FL": 3550,
+      "National_C2": 4900,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 45000,
+          "Expected_Yield_Q_Per_Ha": 12.5
+        }
+      }
+    },
+    "Paddy": {
+      "Season": "Kharif",
+      "National_MSP": 2369,
+      "National_A2_FL": 1500,
+      "National_C2": 2008,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 52000,
+          "Expected_Yield_Q_Per_Ha": 35.0
+        }
+      }
+    },
+    "Wheat": {
+      "Season": "Rabi",
+      "National_MSP": 2585,
+      "National_A2_FL": 1239,
+      "National_C2": 1804,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 48000,
+          "Expected_Yield_Q_Per_Ha": 30.0
+        }
+      }
+    },
+    "Tomato": {
+      "Season": "Horticulture",
+      "National_MSP": 1800,
+      "National_A2_FL": 1200,
+      "National_C2": 1600,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 60000,
+          "Expected_Yield_Q_Per_Ha": 50.0
+        }
+      }
+    },
+    "Onion": {
+      "Season": "Horticulture",
+      "National_MSP": 1500,
+      "National_A2_FL": 1000,
+      "National_C2": 1400,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 55000,
+          "Expected_Yield_Q_Per_Ha": 40.0
+        }
+      }
+    },
+    "Barley": {
+      "Season": "Rabi",
+      "National_MSP": 2150,
+      "National_A2_FL": 1361,
+      "National_C2": 1973,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 35000,
+          "Expected_Yield_Q_Per_Ha": 25.0
+        }
+      }
+    },
+    "Chana": {
+      "Season": "Rabi",
+      "National_MSP": 5875,
+      "National_A2_FL": 3699,
+      "National_C2": 5363,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 42000,
+          "Expected_Yield_Q_Per_Ha": 15.0
+        }
+      }
+    },
+    "Lentil": {
+      "Season": "Rabi",
+      "National_MSP": 7000,
+      "National_A2_FL": 3705,
+      "National_C2": 5372,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 40000,
+          "Expected_Yield_Q_Per_Ha": 12.0
+        }
+      }
+    },
+    "Mustard": {
+      "Season": "Rabi",
+      "National_MSP": 6200,
+      "National_A2_FL": 3210,
+      "National_C2": 4654,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 38000,
+          "Expected_Yield_Q_Per_Ha": 10.0
+        }
+      }
+    },
+    "Safflower": {
+      "Season": "Rabi",
+      "National_MSP": 6540,
+      "National_A2_FL": 4360,
+      "National_C2": 6322,
+      "State_Specific": {
+        "Madhya_Pradesh": {
+          "Cost_Per_Hectare_C2": 45000,
+          "Expected_Yield_Q_Per_Ha": 9.0
+        }
+      }
+    }
+  }
+}

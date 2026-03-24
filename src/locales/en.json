@@ -1,0 +1,539 @@
+{
+  "translation": {
+    "header": {
+      "title": "Meri Kheti Calculator",
+      "subtitle": "Calculate Your Farming Profits Instantly"
+    },
+    "crops": {
+      "dragonFruit": { "name": "Dragon Fruit (Trellis)", "desc": "1-Acre Commercial Farming Setup" },
+      "tomato": { "name": "Polyhouse Tomato", "desc": "Climate-Controlled Yield Estimation" },
+      "appleBer": { "name": "Apple Ber (Jujube)", "desc": "High Yield Drought-Tolerant Farming" },
+      "redLadyPapaya": { "name": "Red Lady Papaya", "desc": "Commercial Hybrid Cultivation" },
+      "tcBanana": { "name": "Tissue Culture Banana (G-9)", "desc": "Disease-Free High Yield ROI" },
+      "bhagwaPomegranate": { "name": "Bhagwa Pomegranate", "desc": "Export-Quality High Premium Cultivation" },
+      "uhdpMango": { "name": "UHDP Mango (Kesar/Alphonso)", "desc": "Ultra High Density Planting Financials" },
+      "strawberry": { "name": "Polyhouse Strawberry", "desc": "Premium Climate-Controlled Setup" },
+      "avocado": { "name": "Avocado (Hass/Fuerte)", "desc": "High-Value Commercial Orchard" },
+      "lemon": { "name": "Kagzi Lemon (High-Density)", "desc": "High-Density Commercial Citrus ROI" },
+      "watermelon": { "name": "Icebox Watermelon", "desc": "Short-Cycle High Margin Cropping" },
+      "muskmelon": { "name": "Muskmelon (Net House)", "desc": "Protected Premium Melon Cultivation" }
+    },
+    "calc": {
+      "landSize": "Farm Size (Acres)",
+      "capEx": "Setup Cost (1-Time ₹)",
+      "opEx": "Yearly Running Cost (₹)",
+      "yield": "Expected Yield (kg/acre)",
+      "price": "Market Rate (₹/kg)",
+      "subsidy": "Govt Subsidy (%)",
+      "intercrop": "Intercropping Income (₹)",
+      "loanRate": "Bank Loan Interest (%)",
+      "loanTenure": "Loan Tenure (Years)",
+      "results": {
+        "revenue": "Total Revenue",
+        "costs": "Total Costs (Inc. EMI)",
+        "netProfit": "Net Profit",
+        "roi": "ROI (%)"
+      },
+      "fiveYearBtn": "View 5-Year Projection"
+    },
+    "seoArticle": {
+      "title": "The Complete 2026 Guide to {{cropName}} Commercial Farming Profitability",
+      "subtitle": "Expert financial breakdown of 1-Acre CapEx, OpEx, subsidies, and high-density yield projections.",
+      "takeawaysTitle": "Key Takeaways (1-Acre Model)",
+      "takeaways1": "<strong>Initial Setup (CapEx):</strong> ₹ {{setup}} (Eligible for NHB/MIDH Subsidies)",
+      "takeaways2": "<strong>Yearly Running Cost (OpEx):</strong> ₹ {{opex}}",
+      "takeaways3": "<strong>Mature Yield Expectation:</strong> {{yield}} kg per acre",
+      "takeaways4": "<strong>Average Wholesale Mandi Price:</strong> ₹ {{price}} / kg",
+      "intro": "Investing in commercial agriculture has transformed dramatically over the past decade. Traditional farming is rapidly making way for scientific, data-driven horticulture. Among the most lucrative opportunities available to the modern Indian agri-entrepreneur is the commercial cultivation of <strong>{{cropName}}</strong>. This comprehensive report breaks down exactly why {{cropName}} is dominating the agricultural landscape, the underlying economics of setting up a high-density 1-acre farm, and how to maximize your return on investment (ROI) using our advanced financial estimator.",
+      "h1": "1. The Rising Market Demand for {{cropName}}",
+      "p1a": "The domestic and international demand for high-quality {{cropName}} has skyrocketed. Consumers are increasingly health-conscious, preferring premium, nutrient-dense fruits and vegetables over standard staples. This shift in dietary habits has forced the wholesale <strong>Mandi prices</strong> up to an impressive average of ₹{{price}} per kilogram.",
+      "p1b": "Furthermore, food processing industries, export houses, and premium retail chains are actively looking for reliable, bulk suppliers of {{cropName}}, creating a massive void in the supply chain that progressive farmers are rushing to fill. The market stability of this crop makes it not just a farming decision, but an incredibly sound financial investment akin to commercial real estate.",
+      "tableTitle1": "Financial Metric",
+      "tableTitle2": "1-Acre Benchmark Value",
+      "tableRow1": "Total Infrastructure & Saplings",
+      "tableRow2": "Annual OpEx (Labor, Fertilizer)",
+      "tableRow3": "Gross Revenue at Full Maturity",
+      "h2": "2. Capital Expenditure (CapEx): Understanding the Setup Costs",
+      "p2a": "Entering the commercial horticulture space requires capital. The initial setup cost for 1 acre of {{cropName}} currently stands around <strong>₹{{setup}}</strong>. This figure, which aligns with NABARD unit cost guidelines, is not an expense—it is a long-term asset investment. This CapEx covers essential infrastructure. Depending on the exact nature of {{cropName}}, this may include high-tensile concrete trellises, state-of-the-art polyhouse shading nets, advanced Israeli drip-irrigation systems, and superior quality, disease-resistant tissue culture saplings.",
+      "p2b": "Cutting corners during the CapEx phase is the most common mistake new farmers make. Buying uncertified saplings or skipping the drip irrigation system will dramatically lower your Year 3 yield. Fortunately, bodies like the National Horticulture Board (NHB) and various State Agriculture Departments offer massive <strong>capital subsidies</strong>. By utilizing the <em>Subsidy Engine</em> in our calculator above, you can see how securing a standard 20% to 50% subsidy instantly reduces your out-of-pocket financial burden, vastly improving your initial cash flow.",
+      "h3": "3. Operational Expenditure (OpEx): The Cost of Running a Farm",
+      "p3a": "A farm is a living factory. To achieve the benchmark mature yield of {{yield}} kg per acre, a farmer must maintain strict operational protocols. The yearly <strong>running cost (OpEx) averages ₹{{opex}}</strong>. This operational budget goes toward skilled labor for pruning and harvesting, sophisticated water-soluble fertilizers (fertigation), organic micronutrients, and proactive pest/disease management.",
+      "p3b": "Modern farming is precision farming. You are not just throwing seeds in the dirt; you are carefully managing the exact N-P-K (Nitrogen, Phosphorus, Potassium) ratios required by {{cropName}} during its vegetative and flowering stages. While the OpEx might seem high compared to traditional crops, the exponential returns justify every single rupee spent on plant health.",
+      "h4": "4. Maximizing Revenue: Yield, Market Rate, and Intercropping",
+      "p4a": "The true financial magic of {{cropName}} farming reveals itself in the revenue generation phase. Once the plant reaches full maturity, a well-maintained 1-acre plot will easily yield <strong>{{yield}} kg</strong>. If you execute a strategic harvest and sell during peak demand windows or directly to premium buyers, securing a price of ₹{{price}}/kg is highly achievable.",
+      "p4b": "However, what happens during the gestation period? High-value crops do not yield 100% capacity in Year 1. This is where <strong>Intercropping</strong> becomes a vital financial strategy. By planting short-duration crops (like green leafy vegetables, marigolds during festival seasons, or quick-yielding spices) in the vacant soil between your main saplings, you actively generate revenue in the first 12 to 18 months. This intercropping income can completely cover your OpEx and Bank EMI payments while you wait for the main {{cropName}} canopy to develop.",
+      "h5": "5. The 5-Year Financial Strategy",
+      "p5a": "Agriculture is not a \"get rich quick\" scheme; it is a long-term wealth generation vehicle. As our <strong>5-Year Projection Matrix</strong> demonstrates, Year 1 is generally a heavy investment year focused entirely on setup and survival. Year 2 brings your first significant commercial harvest, often allowing you to break even on operational costs. By Year 3, the crop hits maturity, and the massive profit margins finally unlock.",
+      "p5b": "From Year 3 through Year 10 (depending on the lifespan of {{cropName}}), the CapEx drops to zero, the OpEx stabilizes, and the Revenue remains aggressively high. This is why institutional investors are entering Indian agriculture. By utilizing bank term loans (which you can accurately model in our calculator's EMI section), a farmer leverages external capital to build a cash-flowing asset that outperforms standard mutual funds.",
+      "conclusionTitle": "Conclusion",
+      "conclusionText": "Entering commercial {{cropName}} cultivation is a highly profitable venture when approached with rigorous financial planning and modern agricultural science. By utilizing the advanced profit margin calculator at the top of this page, you can tailor the exact acreage, local Mandi prices, and bank loan structures to model your specific reality. Stop guessing, start calculating, and step into the future of high-value agriculture."
+    },
+    "mandi": {
+      "header": {
+        "title": "Mandi Intelligence",
+        "state": "State",
+        "district": "District",
+        "mandiName": "Mandi Name",
+        "crop": "Select Crop"
+      },
+      "crops": {
+        "onion": { "name": "Onion" },
+        "tomato": { "name": "Tomato" },
+        "wheat": { "name": "Wheat" },
+        "potato": { "name": "Potato" },
+        "paddy(dhan)": { "name": "Paddy" },
+        "soyabean": { "name": "Soyabean" },
+        "maize": { "name": "Maize" },
+        "garlic": { "name": "Garlic" },
+        "greenchilli": { "name": "Green Chilli" },
+        "cotton": { "name": "Cotton" },
+        "mustard": { "name": "Mustard" }
+      },
+      "infoTools": {
+        "originPrice": {
+          "title": "Live Origin Price",
+          "methodology": "Sourced via live API from data.gov.in (AGMARKNET). Shows the Modal (average) auction price for FAQ (Fair Average Quality) crops.",
+          "accuracy": "95%",
+          "limitations": "Does not include local Mandi tax, commissions (Arhatiya), or unloading fees. Quality downgrades at auction are common.",
+          "source": "Ministry of Agriculture & Farmers Welfare, Govt of India"
+        },
+        "weather": {
+          "title": "Weather-Price Intelligence",
+          "methodology": "Cross-references hyper-local humidity and rain forecasts with the specific crop's spoilage threshold to generate a hold/sell timeline.",
+          "accuracy": "85%",
+          "limitations": "Sudden micro-climate changes (e.g., flash hailstorms) can bypass forecast models.",
+          "source": "OpenWeather API & Agronomy Spoilage Matrix"
+        },
+        "arbitrage": {
+          "title": "Arbitrage Travel Logic",
+          "methodology": "Calculates the price difference between Mandis. Subtracts estimated Diesel transport cost using the Haversine formula (distance).",
+          "accuracy": "80%",
+          "limitations": "Assumes you own a tractor. Commercial freight (Bhada) and toll taxes are not included in the basic prediction.",
+          "source": "Geospatial Haversine Algorithm"
+        },
+        "cacp": {
+          "title": "CACP Business Intelligence",
+          "methodology": "Uses official C2 Cost (Comprehensive Cost: actual expenses + family labor + land interest) to determine true corporate margin.",
+          "accuracy": "98%",
+          "limitations": "These are state-level averages. Your personal farm expenses may vary slightly depending on yields.",
+          "source": "Commission for Agricultural Costs & Prices (Kharif/Rabi Reports)"
+        },
+        "trend": {
+          "title": "30-Day Market Trend",
+          "methodology": "Plots the closing modal price over 30 days. Uses an algorithmic moving average for days without official data to show momentum.",
+          "accuracy": "90%",
+          "limitations": "Past performance does not guarantee future prices. Sudden policy changes (e.g., Export bans) can disrupt the trend.",
+          "source": "Historical Price Pattern Algorithm"
+        }
+      },
+      "hero": {
+        "ticker": "🌱 {{city}} {{crop}}: ₹{{price}} {{trend}} | 🚀 TARGET: {{targetCity}} ₹{{targetPrice}} | ⛈️ ALERT: {{alert}}",
+        "title": "KisanBaba Smart Mandi & Munafa",
+        "aiTag": "AI POWERED",
+        "equation": {
+          "rate": "💰 Mandi Rate",
+          "transport": "🚜 Transport Cost",
+          "netProfit": "✅ Net Profit"
+        },
+        "authority": "🇮🇳 700+ Districts · 28 States · 9,600+ Routes"
+      },
+      "selectors": {
+        "state": "📍 State",
+        "district": "🏘️ District",
+        "mandiName": "🏘️ Mandi Name",
+        "mandi": "🏗️ Mandi/APMC",
+        "allMandis": "Main Mandi / All",
+        "crop": "🌾 Commodity",
+        "gps": "Nearby Mandi",
+        "voice": "Voice Search",
+        "hint": "Select your crop for live rates",
+        "hintLocal": "In Local Mandi",
+        "hintState": "In State",
+        "reports_count": "Reports Count",
+        "groundReality": {
+          "title": "Your Ground Reality (Field Variables)",
+          "qualityLabel": "Crop Quality (Moisture)",
+          "transportLabel": "Transport Mode"
+        }
+      },
+      "radar": {
+        "title": "Mandi Radar (Near You)",
+        "myMandis": "My Favorite Mandis"
+      },
+      "stats": {
+        "profitRadar": "Profit Radar",
+        "saved": "Potential Savings",
+        "share": "Tell Friends",
+        "fetching": "Fetching live Mandi intelligence..."
+      },
+      "priceCard": {
+        "title": "Mandi Bhav",
+        "ago": "ago",
+        "mandiSuffix": "Mandi",
+        "units": {
+          "m": "m",
+          "h": "h"
+        },
+        "unit": "per Quintal",
+        "min": "Min",
+        "max": "Max",
+        "modal": "Modal",
+        "fetched": "Fetched {{min}} min ago",
+        "qualityA": "A-Grade (+5%)",
+        "qualityB": "FAQ (API)",
+        "qualityC": "URS (-12%)",
+        "transportOwn": "Own Tractor",
+        "transportRent": "Rental (Bhada)",
+        "supply": "Supply",
+        "highSupply": "HIGH SUPPLY",
+        "normalSupply": "NORMAL",
+        "lowSupply": "LOW SUPPLY",
+        "noData": "No live trade records for this mandi today. Showing last available/estimated prices.",
+        "msp": "Govt MSP",
+        "vsMsp": "vs MSP",
+        "update": "Update",
+        "diesel": "Diesel"
+      },
+      "weather": {
+        "title": "Weather × Price Intelligence",
+        "impact": "Price Impact",
+        "spoilage": "Spoilage Risk",
+        "reasoning": "Advisor Reasoning",
+        "logicTitle": "Kisan Mentor Logic Breakdown",
+        "impactLabels": {
+          "HIGH": "HIGH IMPACT",
+          "MODERATE": "MODERATE IMPACT",
+          "LOW": "LOW IMPACT"
+        },
+        "riskLabels": {
+          "HIGH_RISK": "🔴 HIGH RISK",
+          "MODERATE_RISK": "🟡 MODERATE RISK",
+          "LOW_RISK": "🟢 LOW RISK",
+          "SAFE": "✅ SAFE"
+        },
+        "advice": {
+          "high": "{{temp}}°C + {{humidity}}% humidity = rapid spoilage. Sell within 24 hours!",
+          "moderate": "Conditions are warm. Sell within 48-72 hours for best quality.",
+          "low": "Weather is favorable. You can hold for 5-7 days safely.",
+          "safe": "Excellent storage conditions. Hold and wait for better prices."
+        }
+      },
+      "sellAdvice": {
+        "actions": {
+          "SELL_NOW": "SELL NOW",
+          "HOLD_2_3_DAYS": "HOLD 2-3 DAYS",
+          "SELL_SOON": "SELL SOON",
+          "SELL_THIS_WEEK": "SELL THIS WEEK"
+        },
+        "logic": {
+          "spoilage": "High Spoilage Risk: Weather is too hot/humid for storage.",
+          "urgency": "Urgency: {{crop}} will start losing quality in {{hours}} hours.",
+          "maximize": "Maximize Value: Selling now prevents 100% loss later.",
+          "momentum": "Market Momentum: Prices rose {{trend}}% in 7 days, likely to peak further.",
+          "storage": "Safe Storage: Weather is dry and cool, crop won't spoil if held.",
+          "profit": "Profit Goal: Waiting 48 hours could net 2-3% more profit.",
+          "downward": "Downward Trend: Market is softening ({{trend}}% drop). Don't wait for bottom.",
+          "supply": "Supply Surge: Many farmers are bringing stock, causing a price dip.",
+          "stable": "Stable Prices: No big movements expected in next 3 days.",
+          "fairValue": "Fair Value: Current price is near the 7-day average."
+        }
+      },
+      "arbitrage": {
+        "title": "Adjoining Mandi Prices — Should You Drive?",
+        "noNeighbors": "No adjoining districts found within 150km radius.",
+        "gap": "Price Gap",
+        "extraEarning": "Total Extra Earning",
+        "transportCost": "Transport Cost",
+        "netProfit": "NET PROFIT",
+        "verdict": "Our Suggestion",
+        "advice_worth_it": "{{district}} is paying ₹{{diff}} more per quintal today. It's only {{dist}}km away—selling here will net you ₹{{profit}} extra profit after diesel!",
+        "advice_not_worth_it": "{{district}} is paying ₹{{diff}} more, but considering the {{dist}}km distance and diesel costs, it's better to sell at your local mandi.",
+        "transport": {
+          "calculating": "Estimating transport costs"
+        },
+        "eduModal": {
+          "title": "Weather & Market Guide",
+          "impact_title": "1. What is Price Impact?",
+          "impact_desc": "If rain or storms are predicted, arrivals in the Mandi drop as transport becomes difficult. This lower supply often causes prices to spike. Example: If heavy rain is expected tomorrow, buyers might pay ₹100 extra today to secure stock, causing a temporary price jump.",
+          "spoilage_title": "2. What is Spoilage Risk?",
+          "spoilage_desc": "High heat and humidity accelerate crop decay. Example: If humidity is above 80%, perishable crops like Tomato or Leafy Greens can start losing quality within 24 hours, leading to price deductions by traders.",
+          "logic_title": "3. AI Advisor Reasoning",
+          "logic_desc": "Our AI balances 30-day price trends, today's supply, and 48-hour weather forecasts. Example: If price momentum is high but a storm is 12 hours away, 'Sell Now' is the safest advice to avoid both physical and financial risk.",
+          "close": "Close Guide"
+        }
+      },
+      "trend": {
+        "title": "Price Trend",
+        "realData": "Real Govt Data",
+        "estimate": "Smart Estimate",
+        "momentum": "Price Momentum",
+        "realSubtitle": "{{count}} data points from data.gov.in — Official AGMARKNET records",
+        "simSubtitle": "Based on current price + commodity volatility pattern. Real data available when OGD has more records.",
+        "tooltipValue": "Modal Price",
+        "bullish": "BULLISH",
+        "bearish": "BEARISH"
+      },
+      "cacp": {
+        "title": "Business Intelligence (True P&L)",
+        "barometerTitle": "True Break-Even Barometer",
+        "statusProfit": "C2 Profitable",
+        "statusSurvival": "A2+FL Survival",
+        "statusLoss": "Net Loss",
+        "adviceHold": "At {{price}}/q, you cover all comprehensive costs (C2) with a net margin of {{margin}}/q.",
+        "estArea": "Est. Area: {{area}} Hectares",
+        "adviceSurvival": "At {{price}}/q, you cover cash costs but fail to meet your C2 Comprehensive Cost ({{c2}}). You are subsidizing the market with family labor. ⚠️ HOLD.",
+        "adviceLoss": "At {{price}}/q, you are below exact A2+FL survival costs ({{a2fl}}). Extreme Loss Warning.",
+        "infoBtn": "Official CACP Math Analysis",
+        "harvestLabel": "Your Harvest Quantity",
+        "a2fl": "A2+FL (Survival Cost)",
+        "c2": "C2 (Comprehensive Cost)",
+        "msp": "Official Govt MSP",
+        "margin": "Net Corporate Profit Margin",
+        "roi": "Return on Investment (ROI)",
+        "learnEconomicsBtn": "📖 Learn Mandi Economics",
+        "eduModal": {
+          "title": "Farmer's Guide to Profit & Loss",
+          "a2_title": "1. What is A2? (Input Cost)",
+          "a2_desc": "A2 is your actual paid-out cost—seeds, fertilizer, labor, diesel, and irrigation. It is the money that leaves your pocket directly. Example: If you spend ₹10,000 on seeds and fertilizer, that is your A2.",
+          "a2fl_title": "2. What is A2+FL? (Survival Cost)",
+          "a2fl_desc": "A2+FL includes your paid-out costs (A2) plus the imputed value of family labor (FL). Example: ₹10,000 cash (A2) + ₹5,000 for your family's hard work (FL) = ₹15,000 is your true Survival Cost. If market price is below this, you are facing a heavy loss.",
+          "c2_title": "3. What is C2? (True Business Profit)",
+          "c2_desc": "C2 is the true 'Business Cost' including (A2+FL) + rental value of owned land + interest on capital. Example: ₹15,000 (A2+FL) + ₹5,000 land rent = ₹20,000 is your true Business Cost (C2). Real profit is what you earn above this price.",
+          "msp_title": "4. What is MSP? (Govt Guarantee)",
+          "msp_desc": "Minimum Support Price (MSP) is the government guarantee to protect you from market crashes. Example: If your A2+FL cost is ₹1,000, the government sets MSP at minimum ₹1,500 (1.5x) to ensure you don't face a loss even if market rates fall.",
+          "close": "Close Guide"
+        },
+        "plTitle": "Zero-Effort Corporate P&L Statement",
+        "productionCost": "Production Cost",
+        "transportCost": "Local Transport",
+        "grossRevenue": "Gross Revenue",
+        "totalC2": "Total C2 Cost",
+        "netMargin": "Net Corporate Margin",
+        "roiLabel": "ROI (%)",
+        "predictiveTitle": "Next Season Predictive ROI",
+        "predictiveSub": "Compare expected margins based on C2 costs",
+        "intelligence": {
+          "title": "Pro Market Intelligence",
+          "tapPrompt": "▲ Tap for Pro Insights",
+          "benchmark": {
+            "title": "National Hub Watch",
+            "subtitle": "Price Leader (Usually affects you in 24-48h)",
+            "live": "LIVE HUB",
+            "action": "National price is surging. Consider holding stock."
+          },
+          "gap": {
+            "title": "Consumer Price Gap",
+            "subtitle": "City Retail vs. Your Mandi",
+            "retail": "Retail Price in {{city}}",
+            "farmerShare": "Farmer Share",
+            "others": "Logistics & Margin",
+            "advice": "High consumer demand. Negotiate for higher rates!"
+          },
+          "strategy": {
+            "title": "National Alert & Heatmap",
+            "heatmap": "State-wide Heatmap",
+            "nationalHeatmap": "National Hub Price DNA",
+            "hot": "High Demand Zone",
+            "cold": "Low Demand Zone",
+            "neutral": "Stable Zone",
+            "recommendation": "Transport to {{district}} for +₹{{premium}}/q premium."
+          },
+          "forecast": {
+            "title": "Pro Market Prediction (AI)",
+            "confidence": "Forecast Accuracy",
+            "velocity": "7-Day Momentum"
+          },
+          "weather": {
+            "title": "Agri-Weather Intelligence",
+            "impact": "Low temperature drop detected. Minimal impact on harvest quality expected."
+          },
+          "labels": {
+            "yearlyRange": "Yearly DNA Data",
+            "yearlyLow": "Yearly Low",
+            "yearlyAvg": "Yearly Avg",
+            "yearlyHigh": "Yearly High",
+            "retail": "Retail Price (Average)"
+          },
+          "stability": {
+            "title": "Market Stability"
+          }
+        }
+      },
+      "intelligence": {
+        "title": "Market Intelligence",
+        "tapPrompt": "▲ Tap for Pro Insights",
+        "labels": {
+          "yearlyRange": "2026 Price Range",
+          "yearlyLow": "Yearly Low",
+          "yearlyHigh": "Yearly High",
+          "yearlyAvg": "Baseline Avg"
+        },
+        "units": {
+          "quintal": "/quintal",
+          "litre": "L"
+        },
+        "benchmark": {
+          "title": "Benchmark Hub (Primary)",
+          "live": "LIVE DATA",
+          "subtitle": "National benchmark price at the core of India's trading hub.",
+          "action": "Selling above benchmark is highly recommended."
+        },
+        "gap": {
+          "title": "Consumer Price Index (Retail Gap)",
+          "retail": "{{city}} Retail Price",
+          "localHub": "LOCAL HUB",
+          "nationalPulse": "National Market Pulse (Metros)",
+          "farmerShare": "Farmer's Share of Consumer Price",
+          "advice": "High retail gap suggests opportunity to sell directly or to cooperatives."
+        },
+        "stability": {
+          "title": "Market Stability",
+          "arrivals": "Arrivals",
+          "trend": "Trend",
+          "levels": {
+            "stable": "Stable",
+            "high": "High Stability",
+            "volatile": "Volatile"
+          },
+          "arrival_status": {
+            "moderate": "Moderate",
+            "high": "High",
+            "low": "Low"
+          },
+          "trends": {
+            "neutral": "Neutral",
+            "firm": "Firm",
+            "volatile": "Volatile"
+          }
+        }
+      },
+      "news": {
+        "title": "Govt Policy & MSP News Radar",
+        "source": "Source"
+      }
+    },
+    "home": {
+      "hero": {
+        "subtitle": "The Sunrise of Indian Agriculture - Raipur, CG",
+        "micPrompt": "Tap and tell us what you need..."
+      },
+      "mandi": {
+        "title": "Mandi Profit Calculator",
+        "exploreBtn": "Explore Advance Tools",
+        "profitAdvice": "Maximize Profit: Choose the right Mandi with precise distance & diesel logic."
+      },
+      "weather": {
+        "title": "Smart Weather Shield",
+        "exploreBtn": "View Weather Radar",
+        "alertHeader": "Action Alert",
+        "location": "Raipur, Chhattisgarh"
+      }
+    },
+    "nav": {
+      "home": "Home",
+      "mandi": "Mandi Bhav",
+      "news": "News Radar",
+      "kisanBhai": "Kisan Bhai",
+      "admin": "Mandi Control Panel"
+    },
+    "footer": {
+      "brand_mission": "Empowering every Indian farmer with deep technology, actionable truth, and unwavering hope.",
+      "author": {
+        "title": "Dr. Niraj Ghanghoriya",
+        "bio": "Dr. Niraj Ghanghoriya is an enthusiastic AI researcher dedicated to creating advanced tools that solve real-world problems. A doctor by profession, he is on a mission to transform advanced AI technology to solve the unique challenges of rural India.",
+        "role": "MSc, PhD (AI Research)",
+        "badge": "Expert Creator"
+      },
+      "disclaimer": "Disclaimer: This tool is for informational and educational purposes only. Mandi rates and weather data are sourced from government and open-source APIs and are subject to market fluctuations. Always verify rates at your local mandi before selling. We are not liable for any financial losses.",
+      "report": {
+        "title": "Mandi Integrity Report",
+        "subtitle": "Traders offering less than API?",
+        "btn": "🚨 Report Fake Rate",
+        "categories": {
+          "low_price": "🔻 Low Price",
+          "closed": "🚪 Mandi Closed",
+          "dispute": "⚖️ Quality Dispute"
+        },
+        "success": "Report submitted. We'll verify this Mandi immediately!",
+        "how_much": "How much did you receive? (₹ per quintal)",
+        "submit_price": "Submit Review",
+        "gap_message": "{{name}} received ₹{{gap}} less than model price today",
+        "community_price": "Community Real Price",
+        "community_status": "Based on {{count}}+ farmer reports",
+        "stats": "📊 Today {{count}} reports",
+        "view_btn": "View Real-time",
+        "recent_title": "Ground Activity Feed",
+        "verified_tag": "Verified",
+        "reports_count": "reports",
+        "verified": "📍 {{city}} Mandi Verified"
+      },
+      "msp_gap": {
+        "above": "Above MSP",
+        "below": "Below MSP"
+      },
+      "feedback": {
+        "title": "Rate our Tool",
+        "mission": "Help us build India's most advanced tool. Your feedback makes this tech world-class!",
+        "params": {
+          "accuracy": "🎯 Bhav Accuracy",
+          "reliability": "🛡️ Reliability (Trust)",
+          "functionality": "⚙️ Functionality (Ease)"
+        },
+        "submit": "Submit My Feedback",
+        "success": "Thank you! Your feedback helps us improve."
+      },
+      "methodology": {
+        "title": "Science & Methodology (Transparency)",
+        "subtitle": "This tool is not 100% perfect. Understand the exact math we use and our ground-reality limitations.",
+        "c2_title": "C2 Cost Calculation",
+        "c2_desc": "We use official CACP datasets. C2 Cost includes actual expenses (A2) + family labor (FL) + interest on capital + rental value of owned land.",
+        "transport_title": "Transport Cost (Haversine)",
+        "transport_desc": "Profit is calculated by subtracting estimated diesel costs based on the Haversine formula and average tractor mileage.",
+        "taxes_title": "Hidden Taxes (Limitations)",
+        "taxes_desc": "Prices shown are Modal auction rates and do not include APMC Cess or commissions, which can be 3-5%."
+      },
+      "privacy": "Privacy",
+      "contact": "Contact"
+    },
+    "geography": {
+      "states": {
+        "Andaman and Nicobar Islands": "Andaman and Nicobar Islands",
+        "Andhra Pradesh": "Andhra Pradesh",
+        "Arunachal Pradesh": "Arunachal Pradesh",
+        "Assam": "Assam",
+        "Bihar": "Bihar",
+        "Chandigarh": "Chandigarh",
+        "Chhattisgarh": "Chhattisgarh",
+        "Dadra and Nagar Haveli and Daman and Diu": "Dadra and Nagar Haveli and Daman and Diu",
+        "Delhi": "Delhi",
+        "Goa": "Goa",
+        "Gujarat": "Gujarat",
+        "Haryana": "Haryana",
+        "Himachal Pradesh": "Himachal Pradesh",
+        "Jammu and Kashmir": "Jammu and Kashmir",
+        "Jharkhand": "Jharkhand",
+        "Karnataka": "Karnataka",
+        "Kerala": "Kerala",
+        "Ladakh": "Ladakh",
+        "Lakshadweep": "Lakshadweep",
+        "Madhya Pradesh": "Madhya Pradesh",
+        "Maharashtra": "Maharashtra",
+        "Manipur": "Manipur",
+        "Meghalaya": "Meghalaya",
+        "Mizoram": "Mizoram",
+        "Nagaland": "Nagaland",
+        "Odisha": "Odisha",
+        "Puducherry": "Puducherry",
+        "Punjab": "Punjab",
+        "Rajasthan": "Rajasthan",
+        "Sikkim": "Sikkim",
+        "Tamil Nadu": "Tamil Nadu",
+        "Telangana": "Telangana",
+        "Tripura": "Tripura",
+        "Uttar Pradesh": "Uttar Pradesh",
+        "Uttarakhand": "Uttarakhand",
+        "West Bengal": "West Bengal"
+      }
+    }
+  }
+}

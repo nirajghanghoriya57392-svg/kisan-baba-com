@@ -1,0 +1,85 @@
+.karma-floating-container {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    z-index: 9999;
+}
+
+.karma-score {
+    background: var(--bg-card);
+    color: var(--text-main);
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    border: 2px solid #fbbf24;
+    transition: 0.3s;
+}
+.score-icon { font-size: 1.5rem; }
+.score-text { display: flex; flex-direction: column; line-height: 1.1;}
+.score-text strong { font-size: 1.2rem; color: #b45309; font-weight: 900;}
+.score-text span { font-size: 0.75rem; opacity: 0.7; font-weight: 700; text-transform: uppercase;}
+
+.btn-whatsapp-share {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+.btn-whatsapp-share::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 50%; height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+    transform: skewX(-20deg);
+    animation: shine 3s infinite;
+}
+@keyframes shine { 100% { left: 200%; } }
+
+.btn-whatsapp-share:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(37, 211, 102, 0.6);
+}
+
+.wa-icon { font-size: 1.2rem; font-weight: 900; background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 12px;}
+
+.karma-popup {
+    background: var(--bg-card);
+    color: var(--text-main);
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    animation: slideUp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid #fbbf24;
+    max-width: 300px;
+    line-height: 1.4;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .karma-floating-container { bottom: 15px; right: 15px; }
+    .btn-whatsapp-share { padding: 12px 20px; font-size: 1rem;}
+}
